@@ -7,11 +7,12 @@ it's a small python script to extract data from PDF files provided by Deutsche B
 - pandas
 - real PDF files, no photos or scans
 ## usage: 
-```db_tickets_to_csv.py [-h] [-o OUT] [--sep SEP] [--recursive]
+```
+db_tickets_to_csv.py [-h] [-o OUT] [--sep SEP] [--recursive]
                             [--encoding ENCODING]
                             folder
 
-DB Ticket PDFs -> CSV (Datum/Preis/Start/Ziel)
+Deutsche Bahn (DB) Ticket PDFs -> CSV (Datum/Preis/Start/Ziel)
 
 positional arguments:
   folder               folder containing PDF-Tickets
